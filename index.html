@@ -13,7 +13,7 @@
 <body>
 <header class="nav">
   <a class="brand" href="#home"><span>NI</span> NEW ICON GYM</a>
-  <nav>
+  <nav class="desktop-nav" aria-label="Navigasi utama">
     <a href="#about">About</a>
     <a href="#membership">Membership</a>
     <a href="#facilities">Facilities</a>
@@ -21,11 +21,20 @@
     <a href="#contact">Contact</a>
   </nav>
   <a class="nav-cta" href="#membership">JOIN NOW</a>
-  <button class="menu" aria-label="Menu">☰</button>
+  <button class="menu" aria-label="Buka menu" aria-expanded="false" aria-controls="site-navigation">☰</button>
+  <div class="nav-backdrop"></div>
+  <nav class="mobile-nav" id="site-navigation" aria-label="Navigasi mobile">
+    <a href="#about">About</a>
+    <a href="#membership">Membership</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#classes">Classes</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
 <main>
 <section class="hero" id="home">
+  <img class="hero-image" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&amp;fit=crop&amp;w=2000&amp;q=85" alt="Area latihan gym modern dengan peralatan fitness" fetchpriority="high">
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <p class="eyebrow">SURABAYA • FITNESS • COMMUNITY</p>
@@ -87,10 +96,10 @@
   <div class="section-label">03 — FACILITIES</div>
   <div class="section-head"><div><h2>TRAIN WITH<br><span>NO EXCUSES.</span></h2></div><p>Give visitors a quick visual overview of the gym before they decide to visit.</p></div>
   <div class="facility-grid">
-    <div class="facility big"><div><span>01</span><h3>STRENGTH<br>AREA</h3></div></div>
-    <div class="facility"><div><span>02</span><h3>CARDIO<br>ZONE</h3></div></div>
-    <div class="facility"><div><span>03</span><h3>FUNCTIONAL<br>TRAINING</h3></div></div>
-    <div class="facility"><div><span>04</span><h3>LOCKER &<br>SHOWER</h3></div></div>
+    <div class="facility big"><img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Area latihan beban dengan dumbbell" loading="lazy"><div><span>01</span><h3>STRENGTH<br>AREA</h3></div></div>
+    <div class="facility"><img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Seseorang berlatih kardio" loading="lazy"><div><span>02</span><h3>CARDIO<br>ZONE</h3></div></div>
+    <div class="facility"><img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Latihan kebugaran fungsional" loading="lazy"><div><span>03</span><h3>FUNCTIONAL<br>TRAINING</h3></div></div>
+    <div class="facility"><img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Interior fasilitas gym" loading="lazy"><div><span>04</span><h3>LOCKER &<br>SHOWER</h3></div></div>
   </div>
 </section>
 
